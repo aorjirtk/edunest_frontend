@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "7794540354",
+    "project_id": "student-loan-manager",
+    "storage_bucket": "student-loan-manager.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7794540354:android:843f1927adfd6e8f1312db",
+        "android_client_info": {
+          "package_name": "com.example.my_flutter_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJNosnhk6M-exnkkOnQXhuDMSaeOFEQ5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
