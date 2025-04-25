@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:my_flutter_app/config/constants.dart';
@@ -52,12 +53,12 @@ class _SplashScreenState extends State<SplashScreen> {
 
 void _navigate(){
   Future.delayed(const Duration(seconds: 3),(){
-    // if(FirebaseAuth.instance.currentUser != null){
+    if(FirebaseAuth.instance.currentUser != null){
     context.go('/loan_dashboard');
-    // }
-    // else{
-    //   context.go('/register_screen');
-    // }
+    }
+    else{
+      context.go('/register');
+    }
   });
 }
 }

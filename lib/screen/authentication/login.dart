@@ -62,7 +62,7 @@ class _RegisterScreenState extends State<LoginScreen> {
                   TextSpan(text: 'Sign up', style: AppTheme.titleStyle(isBold: true, Color: primaryColor),
                   recognizer: TapGestureRecognizer()..onTap = () {
                     // navigate to register screen
-                    context.go('/register_screen');
+                    context.go('/register');
                   }
                   ),
                   

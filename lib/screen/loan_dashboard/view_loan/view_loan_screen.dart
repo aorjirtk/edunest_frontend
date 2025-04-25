@@ -20,7 +20,7 @@ class _ViewLoanScreenState extends State<ViewLoanScreen> {
       body:  Padding(padding: EdgeInsets.all(20), 
       child: Column(
         children: [
-          LoanViewDetails(titleText: "Emergency loan", headerText: "Loan Name"),
+          LoanViewDetails(titleText: "Student Loan", headerText: "Loan Name"),
           LoanViewDetails(titleText: "\$55,0000", headerText: "Loan Amount"),
 
           Column(
